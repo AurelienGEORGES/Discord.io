@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "whitneymedium", Arial;
+    src: url("whitneymedium.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: "whitneymedium";
+      
+}
+
+header {
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+    background-image:url("imageDiscord0.svg"),  
+    url("imageDiscord0bis.svg"),
+    url("imageDiscordfond.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, bottom right, bottom;
+    /*background-position-x: -65%, 152%, -30%;*/
+    background-color: #404eed;  
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logoBlanc {
+    color: white;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.centreTitreH1 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.centreParagrapheH1 {
+    text-align: center;
+    color: white;
+}
+
+.listeLiensHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 600; 
+}
+
+#customBoutonLinuxHeader {
+    background: white;
+    background-size: 20px;
+    border-radius: 30px;
+    padding: 15px 5px;
+}
+
+#customBoutonLinuxHeader a {
+    color: grey;
+}
+
+#customBoutonLinuxHeader svg {
+    color: grey;
+}
+
+#customBoutonOuvrirDiscord {
+    background: #23272A;
+    background-size: 20px;
+    border-radius: 30px;
+    padding: 15px 5px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.AlignLigne li {
+    display: inline-block;
+}
+
+.AlignLigne li a {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.AlignRightNav {
+    /*align-content: right;*/
+    margin-top: 10px;
+    margin-right: 60px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.AlignRightNav a {
+    color: #23272A;;
+    background: white;
+    /*background-size: 20px 20px 20px 20px;*/
+    border-radius: 20px;
+    padding: 10px 10px;
+
+}
+
+.AlignLigne2 {
+    text-align: center;
+}
+
+.AlignLigne2 li {
+    display: inline-block;
+    
+}
+
+.AlignLigne2 li a {
+    color: white;
+}
+
+.AlignLigneLiensBas li {
+    display: inline-block;
+}
+
+.flexSection1 {
+    display: flex;
+}
+
+.flexSection1 h2 {
+    font-size: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.flexSection1 p {
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.flexSection2 {
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.flexSection2 h2 {
+    font-size: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.flexSection2 p {
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.flexSection3 {
+    display: flex;
+}
+
+.flexSection3 h2 {
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.flexSection3 p {
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.greyBackground {
+    background-color: #f6f6f6;
+}
+
+.centrerImage4 {
+    text-align: center;
+}
+
+.Section4centre {
+    text-align: center;
+    
+}
+
+.Section4centre h2 {
+    font-size: 30px;
+}
+
+.Section4centre p {
+    font-size: 20px;
+}
+
+.centreText4 {
+    text-align: center;
+    margin: 30px;
+}
+
+.centreText4 h3 {
+    font-size: 30px;
+}
+
+#customBoutonSection4 {
+    background: #5865F2;
+    color: white;
+    background-size: 20px;
+    border-radius: 30px;
+    padding: 15px 5px;
+    margin: 30px;
+}
+
+#customBoutonSection4 svg {
+    color: white;
+}
+
+.footerBlock {
+    display: flex;
+    background-color: #23272A;
+}
+
+#customH3Footer {
+    color: #5865F2;
+}
+
+.titreLiensViolet {
+    color: #5865F2;
+}
+
+footer li a{
+    color: white;
+    text-align: left;
+}
+
+.blocLogosSociaux {
+    display: flex;
+}
+
+.blocLogosSociaux svg {
+    color: white;
+    
+}
+
+#customBoutonFooter {
+    
+    background: #5865F2;
+    background-size: 20px;
+    border-radius: 30px;
+    padding: 15px 5px;
+}
+
+#customBoutonFooter a {
+    color: white;
+    
+}
